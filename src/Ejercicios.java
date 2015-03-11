@@ -86,6 +86,6 @@ public class Ejercicios {
 		{
 			if(str==mi_lista.get(c)) cant=cant+1;
 		}
-		return cant;//devuelve
+		return cant;//devuelve cant
 	}
 }
