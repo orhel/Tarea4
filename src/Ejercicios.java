@@ -69,7 +69,7 @@ public class Ejercicios {
 	//Devuelve el numero menor almacenado en 'mi_lista'
 	static int getMenor(ArrayList<Integer> mi_lista)
 	{
-		int menor = Integer.MAX_VALUE;//se establece como el valor maximo
+		int menor = Integer.MAX_VALUE;//se establece como el valor maximo. Pense que debería de ponerse el MIN_VALUE, pero ocurria un pequeño error, espero nos explique esto por favor
 		for(int c=0;c<mi_lista.size();c++)//contador inicializado en cero, menor que el tamaño de la lista, y sumara de 1 en 1
 		{
 			if(menor > mi_lista.get(c)) menor=mi_lista.get(c); 
